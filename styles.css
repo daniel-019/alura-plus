@@ -1,0 +1,44 @@
+ :root {
+      --braco-principal : #ffffff;
+      --cinza-secundario: #c0c0c0;
+      --botao-azul:#167bf7;
+      --cor-de-fundo:#00030c;
+ }
+
+ body {
+    background-color: var(--cor-de-fundo);
+    color:var(--braco-principal);
+ }
+
+ * {
+    margin:0 ;
+    padding: 0;
+ }
+
+ .principal {
+    background-image: url(img)
+    background-repeat: no-repeat;
+    background-size:contain;
+
+
+ }
+
+ .cantainer {
+    height:100vh;
+    display:grid;
+    grid-template-columns: 50% 50%;
+
+ }
+
+ .container_botao {
+    background-color:var(--botao-azul);
+    border-radius: 5%;
+    padding:  1em;
+    color: var(--botao-azul);
+    display: block;
+ }
+
+ .botao_segundario {
+    background-color: transparent;
+    border:2px solid var (--braco-principal)
+ }
